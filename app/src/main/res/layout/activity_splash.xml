@@ -9,11 +9,52 @@
     android:layout_height="match_parent"
     tools:context=".Home.SplashActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
     <ImageView
-        android:layout_width="250dp"
+        android:layout_marginTop="24dp"
+        android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:src="@drawable/logo"
         android:id="@+id/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:id="@+id/loader1"
+            android:background="@drawable/circle"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_margin="7dp"/>
+
+        <LinearLayout
+            android:id="@+id/loader2"
+            android:background="@drawable/circle"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_margin="7dp"/>
+
+        <LinearLayout
+            android:id="@+id/loader3"
+            android:background="@drawable/circle"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>
