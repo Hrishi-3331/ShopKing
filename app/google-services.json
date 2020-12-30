@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "775012184906",
+    "project_id": "shopking-4f8ae",
+    "storage_bucket": "shopking-4f8ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775012184906:android:51e39c37070573e43dc7b3",
+        "android_client_info": {
+          "package_name": "com.devstudio3331.shopking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775012184906-0024n6pd0h95k5h3rkfpf2260fepe4or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devstudio3331.shopking",
+            "certificate_hash": "a29d011c1869412f9ca9ef8133b580db99419611"
+          }
+        },
+        {
+          "client_id": "775012184906-om64bm9rhe08t11l32u07hu3qfua13tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4AzUx5kJ1DICWj7s8mH0_82ZwS6ECO78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775012184906-om64bm9rhe08t11l32u07hu3qfua13tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
